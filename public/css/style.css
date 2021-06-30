@@ -1,0 +1,48 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.data {
+    background-color: lightgrey;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.formName {
+    padding: 1rem;
+}
+
+.btnOne {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.btnLogin {
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: green;
+    padding: 0.5rem;
+}
+
+.btnRegister {
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: red;
+    padding: 0.5rem;
+}
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #f8f9fa;
+    line-height: 3rem;
+}
